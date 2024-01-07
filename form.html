@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Form </title>
+<style>
+    h1{
+        background-color: goldenrod; 
+    }
+</style>
+</head>
+<body>
+    <center>
+    <h1>Account</h1>
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+
+        <label for="First Name">First Name:</label>
+        <input type="First Name" name="first Name" placeholder="First Name"><br/><br/>
+        
+
+        <label for="Last Name">Last Name:</label>
+        <input type="Last Name" name="Last Name" placeholder="Last Name"><br/><br/>
+       
+
+        <label for="Gmail" > Your Gmail :</label>
+        <input type="Gmail"  name="Gmail" placeholder="Gmail"><br/><br/>
+
+        <label for="Password">Your Password :</label>
+        <input type="Password" name="Password" placeholder="Password"><br/><br/>
+
+        <label>Gender:</label>
+        <input checked type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+         <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="Custom" name="gender">
+        <label for="Custom">Custom</label><br/><br/>
+
+        <label for="hobbies">Hobbies:</label>
+
+        <input type="checkbox" id="cricket">
+        <label for="cricket">Cricket</label>
+
+        <input type="checkbox" id="football">
+        <label for="football">Football</label>
+
+        <input type="checkbox" id="reading books">
+        <label for="reading books">Reading books</label><br/><br/>
+
+        <label for="birth">Date Of Birth</label>
+
+        <input type="date" id="birth"><br/><br/>
+
+        <label for="provices">Province</label>
+        <select id="provices">
+            
+
+        <option selected ="sindh">Sindh</option>
+        <option value="bolachistan">Bolachistan</option> 
+        <option value="kpk">KPK</option>
+        <option value="punjab">Punjab</option>
+    </select><br/><br/>
+
+
+
+        <label for="pic">Profile Picture</label>
+        <input type="file" id="pic"> <br/><br/>
+
+        <label for="descripyion">Description</label><br>
+        <textarea id="descripyion" cols="30" rows="5"></textarea><br/><br/>
+
+        <button type="submit" >Submit</button>
+    
+    </fieldset>
+    </form>
+</center>
+</body>
+</html>
